@@ -1,0 +1,249 @@
+/*****************************************************
+	汎用スタイル	by.Shiro	Upd.2021/07/04
+******************************************************/
+
+/*****************************************************
+	初期化
+******************************************************/
+BODY, H1, H2, H3, H4, H5, H6 {
+	margin: 0px;
+}
+
+/*****************************************************
+	BODY > ヘッダー
+******************************************************/
+#header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+}
+
+/*****************************************************
+	BODY > メイン
+******************************************************/
+#main {
+	z-index: 100;
+}
+
+/*****************************************************
+	BODY > フッター
+******************************************************/
+#header {
+	z-index: 998;
+}
+
+
+
+
+
+
+
+/*****************************************************
+	メインビジュアル
+******************************************************/
+#mainvisual {
+
+}
+
+#mainvisual img {
+	width: 100%;
+	object-fit: cover;	
+}
+
+/*****************************************************
+	フレックスボックス
+******************************************************/
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flexHorizontal {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		    flex-direction: row;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+}
+
+.flexVertical {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+}
+
+.flexHorizontalWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		    flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+}
+
+.flexVerticalWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+}
+
+/*****************************************************
+	フレックスボックス
+******************************************************/
+.justify-normal {
+	justify-content: normal;
+}
+
+.justify-left {
+	/* 左寄せ */
+	justify-content: left;
+}
+
+.justify-center {
+	/* 中央寄せ */
+	justify-content: center;
+}
+
+.justify-right {
+	/* 右寄せ */
+	justify-content: right;
+}
+
+.justify-between {
+	/* 先頭から順に並べ、最後のみ末尾に配置 */
+	justify-content: space-between;
+}
+
+.justify-around {
+	/* 均等に配置 */
+	justify-content: space-around;
+}
+
+/*****************************************************
+	幅
+******************************************************/
+.width100 {
+	width: 100%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.cwidth {
+	text-align: center;
+}
+
+.lwidth {
+	text-align: left;
+}
+
+.rwidth {
+	text-align: right;
+}
+
+/*****************************************************
+	余白	上 | 右 | 下 | 左
+	
+	margin: 10px 0px 10px 0px;
+	margin-top: 0px; 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 10px 0px 10px 0px;
+	padding-top: 0px; 
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+******************************************************/
+.margin_0 {
+	margin: 0px;
+}
+
+.padding_0 {
+	padding: 0px;
+}
+
+/*****************************************************
+	罫線
+******************************************************/
+.border0top {
+	border-top-style: hidden;
+}
+
+.border0bottom {
+	border-bottom-style: hidden
+}
+
+
+/*****************************************************
+	文字
+******************************************************/
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.colorRed {
+	color: red;
+}
+
+
+/*****************************************************
+	画像
+******************************************************/
+.imgWidth100{
+	width: 100%;
+}
+
+
+#jumbotron {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+#jumbotron H1 {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 10px;
+  right: 20px;
+  }
+
+#jumbotron p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 0;
+  right: 30;
+}
+
+#jumbotron_back{
+	width: 100%;
+}
+
+
+#jumbotron_title{
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 10px;
+  right: 20px;
+}
